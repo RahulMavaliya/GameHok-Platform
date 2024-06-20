@@ -90,9 +90,11 @@ class HomeFragment : Fragment() {
         binding.gameCards.layoutManager =
             GridLayoutManager(context, 3)
 
-//        gamesAdapter.onItemClick = {
-//            findNavController().navigate(R.id.action_homeFragment_to_gamesFragment)
-//        }
+
+        // 3rd Screen
+        gamesAdapter.onItemClick = {
+            findNavController().navigate(R.id.action_homeFragment_to_gamesFragment)
+        }
 
         val tournamentsList = mutableListOf(
             Tournaments("PUBG Tournament By Red Bull"),

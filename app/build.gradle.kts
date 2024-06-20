@@ -67,5 +67,8 @@ dependencies {
 
     implementation (libs.material.v140)
 
+    implementation (libs.glide)
+    annotationProcessor (libs.compiler)
+
 
 }

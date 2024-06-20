@@ -12,9 +12,9 @@
         <action
             android:id="@+id/action_homeFragment_to_tournamentDetailsFragment"
             app:destination="@id/tournament_Details_Screen" />
-        <!--        <action-->
-        <!--            android:id="@+id/action_homeFragment_to_gamesFragment"-->
-        <!--            app:destination="@id/gamesFragment" />-->
+                <action
+                    android:id="@+id/action_homeFragment_to_gamesFragment"
+                    app:destination="@id/gamesFragment" />
     </fragment>
     <fragment
         android:id="@+id/tournament_Details_Screen"
@@ -25,13 +25,13 @@
             android:id="@+id/action_tournamentDetailsFragment_to_homeFragment"
             app:destination="@id/home_screen" />
     </fragment>
-    <!--    <fragment-->
-    <!--        android:id="@+id/gamesFragment"-->
-    <!--        android:name="com.example.gameHokPlateFormTask.ui.fragments.GamesFragment"-->
-    <!--        android:label="fragment_games"-->
-    <!--        tools:layout="@layout/fragment_games" >-->
-    <!--        <action-->
-    <!--            android:id="@+id/action_gamesFragment_to_homeFragment"-->
-    <!--            app:destination="@id/home_screen" />-->
-    <!--    </fragment>-->
+        <fragment
+            android:id="@+id/gamesFragment"
+            android:name="com.example.gameplateformtask.ui.fragments.GamesFragment"
+            android:label="fragment_games"
+            tools:layout="@layout/fragment_games" >
+            <action
+                android:id="@+id/action_gamesFragment_to_homeFragment"
+                app:destination="@id/home_screen" />
+        </fragment>
 </navigation>

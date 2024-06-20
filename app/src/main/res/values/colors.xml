@@ -13,4 +13,6 @@
     <color name="card_background">#FF192920</color>
     <color name="divider_color">#BDBDBD</color>
     <color name="button_green">#FF01B752</color>
+
+    <color name="light_green">#C8E6C9</color>
 </resources>
