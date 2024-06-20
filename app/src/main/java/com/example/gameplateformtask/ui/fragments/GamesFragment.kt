@@ -13,7 +13,6 @@ import com.example.gameplateformtask.R
 import com.example.gameplateformtask.adapter.TeamMembersAdapter
 import com.example.gameplateformtask.databinding.FragmentGamesBinding
 import com.example.gameplateformtask.model.TeamMember
-import com.google.android.material.textfield.TextInputEditText
 
 
 class GamesFragment : Fragment() {
@@ -63,7 +62,11 @@ class GamesFragment : Fragment() {
                 // Set background color of the CardView
                 binding.teamMembersCard.setCardBackgroundColor(ContextCompat.getColor(requireContext(), R.color.card_background))
 
-            } else {
+            }
+            else if (memberName.isEmpty()) {
+                Toast.makeText(requireContext(), "Please enter a name", Toast.LENGTH_SHORT).show()
+            }
+                else {
                 // Show a message that maximum team members reached
                 Toast.makeText(requireContext(), "Maximum team members reached (5)", Toast.LENGTH_SHORT).show()
             }
