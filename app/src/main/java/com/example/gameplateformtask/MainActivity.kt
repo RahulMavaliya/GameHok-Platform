@@ -5,6 +5,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.onNavDestinationSelected
 import androidx.navigation.ui.setupWithNavController
 import com.example.gameplateformtask.databinding.ActivityMainBinding
 
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
                     binding.navbarView.visibility = View.VISIBLE
                     animateNavBar(true) // animate navbar visibility
                 }
+
                 else -> {
                     binding.navbarView.visibility = View.GONE
                     animateNavBar(false) // animate navbar visibility
@@ -39,9 +41,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Set the listener for BottomNavigationView items
-        binding.navbarView.setOnItemSelectedListener {
-            when (it.itemId) {
-                R.id.home_screen -> navController.navigate(R.id.home_screen)
+        binding.navbarView.setOnItemSelectedListener { item ->
+            if (item.itemId == R.id.home_screen) {
+                // Check if the current destination is not the home screen
+                if (navController.currentDestination?.id != R.id.home_screen) {
+                    navController.navigate(R.id.home_screen)
+                }
+            } else {
+                item.onNavDestinationSelected(navController)
             }
             true
         }
