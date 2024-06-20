@@ -24,13 +24,11 @@ After the sync is complete, you can deploy the application on an Android emulato
   <img src="https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/7001210a-87d8-474c-b008-b37274cd72ad" width="200"/>
   <img src="https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/b86b2a68-94bd-4817-ac6e-7a0649755661" width="200"/>
   <img src="https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/782605e8-2920-4ce2-9a7e-baa8602a1627" width="200"/>
+  <img src="https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/0fc08a8d-8c19-4dd6-a0b3-30c61e3b0c5b" width="200"/>
 </p>
 <p align="center">
-  <img src="https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/0fc08a8d-8c19-4dd6-a0b3-30c61e3b0c5b" width="200"/>
   <img src="https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/4cbbce63-37d4-418e-be7a-e4ceed79df65" width="200"/>
   <img src="https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/eacc12f8-64fd-4bbf-b7a1-4e9200a49b3b" width="200"/>
-</p>
-<p align="center">
   <img src="https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/c02ba388-729a-4ab9-af55-e2744a67deb6" width="200"/>
   <img src="https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/8a61bdf2-d7ce-4187-9a9b-3720a521eccb" width="200"/>
 </p>
