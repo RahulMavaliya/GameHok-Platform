@@ -27,8 +27,14 @@ class MainActivity : AppCompatActivity() {
         // Add listener to show/hide BottomNavigationView based on the current fragment
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {
-                R.id.home_screen -> binding.navbarView.visibility = View.VISIBLE
-                else -> binding.navbarView.visibility = View.GONE
+                R.id.home_screen -> {
+                    binding.navbarView.visibility = View.VISIBLE
+                    animateNavBar(true) // animate navbar visibility
+                }
+                else -> {
+                    binding.navbarView.visibility = View.GONE
+                    animateNavBar(false) // animate navbar visibility
+                }
             }
         }
 
@@ -39,6 +45,11 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
+    }
 
+    // Function to animate BottomNavigationView visibility
+    private fun animateNavBar(show: Boolean) {
+        val translationY = if (show) 0f else binding.navbarView.height.toFloat()
+        binding.navbarView.animate().translationY(translationY).setDuration(100).start() // adjust duration as needed
     }
 }

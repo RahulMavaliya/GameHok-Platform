@@ -13,4 +13,8 @@
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
     </style>
+
+    <style name="Base.Theme.GamePlateformTask.NoAnimation">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
 </resources>
