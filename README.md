@@ -25,6 +25,14 @@ After the sync is complete, you can deploy the application on an Android emulato
 - **Internet Connection:**: Active internet connection is necessary for setup and development.
 
 ## Screenshots
+![Screenshot_2024-06-20-19-44-34-16_f859580335f6099f9deae5ad67a4a5f4](https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/7001210a-87d8-474c-b008-b37274cd72ad)
+![Screenshot_2024-06-20-19-44-55-93_f859580335f6099f9deae5ad67a4a5f4](https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/b86b2a68-94bd-4817-ac6e-7a0649755661)
+![Screenshot_2024-06-20-19-45-05-74_f859580335f6099f9deae5ad67a4a5f4](https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/782605e8-2920-4ce2-9a7e-baa8602a1627)
+![Screenshot_2024-06-20-19-45-11-80_f859580335f6099f9deae5ad67a4a5f4](https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/0fc08a8d-8c19-4dd6-a0b3-30c61e3b0c5b)
+![Screenshot_2024-06-20-19-45-19-03_f859580335f6099f9deae5ad67a4a5f4](https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/4cbbce63-37d4-418e-be7a-e4ceed79df65)
+![Screenshot_2024-06-20-19-45-30-65_f859580335f6099f9deae5ad67a4a5f4](https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/eacc12f8-64fd-4bbf-b7a1-4e9200a49b3b)
+![Screenshot_2024-06-20-19-45-41-65_f859580335f6099f9deae5ad67a4a5f4](https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/c02ba388-729a-4ab9-af55-e2744a67deb6)
+![Screenshot_2024-06-20-19-46-15-70_f859580335f6099f9deae5ad67a4a5f4](https://github.com/RahulMavaliya/GameHok-Platform/assets/99340043/8a61bdf2-d7ce-4187-9a9b-3720a521eccb)
 
 
 ## 🚀 About Me
