@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_screen"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/navigation_tournament"
+        android:icon="@drawable/solar_cup"
+        android:title="Tournament" />
+
+    <item
+        android:id="@+id/navigation_friends"
+        android:icon="@drawable/charity_group"
+        android:title="Friends" />
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/stream"
+        android:title="Chat" />
+
+
+</menu>

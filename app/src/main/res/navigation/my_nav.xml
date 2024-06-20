@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_screen">
+
+    <fragment
+        android:id="@+id/home_screen"
+        android:name="com.example.gameplateformtask.ui.fragments.HomeFragment"
+        android:label="HomeFragment">
+        <action
+            android:id="@+id/action_homeFragment_to_tournamentDetailsFragment"
+            app:destination="@id/tournament_Details_Screen" />
+        <!--        <action-->
+        <!--            android:id="@+id/action_homeFragment_to_gamesFragment"-->
+        <!--            app:destination="@id/gamesFragment" />-->
+    </fragment>
+    <fragment
+        android:id="@+id/tournament_Details_Screen"
+        android:name="com.example.gameplateformtask.ui.fragments.TournamentDetailsFragment"
+        android:label="fragment_tournament_details"
+        tools:layout="@layout/fragment_tournament_details">
+        <action
+            android:id="@+id/action_tournamentDetailsFragment_to_homeFragment"
+            app:destination="@id/home_screen" />
+    </fragment>
+    <!--    <fragment-->
+    <!--        android:id="@+id/gamesFragment"-->
+    <!--        android:name="com.example.gameHokPlateFormTask.ui.fragments.GamesFragment"-->
+    <!--        android:label="fragment_games"-->
+    <!--        tools:layout="@layout/fragment_games" >-->
+    <!--        <action-->
+    <!--            android:id="@+id/action_gamesFragment_to_homeFragment"-->
+    <!--            app:destination="@id/home_screen" />-->
+    <!--    </fragment>-->
+</navigation>
